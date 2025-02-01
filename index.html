@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Unica 💖</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Include canvas-confetti library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+   <!-- Loading Screen -->
+   <div id="loadingScreen">
+    <div class="loading-content">
+      <div class="heart-loader"></div>
+      <p>Loading... Please wait! 💖</p>
+    </div>
+  </div>
+  <!-- Main Page -->
+  <div id="mainPage" class="container">
+    <h1>Hello po Unica hihi 💖</h1>
+    <h1>Will you be my Valentine?</h1>
+    <p id="message">Mag yes ka pleasee</p>
+    <div class="buttons">
+      <button id="yesBtn">Yes</button>
+      <button id="noBtn">No</button>
+    </div>
+    <div id="gifContainer"></div>
+  </div>
+
+  <!-- Pop-up for Final Confirmation (Hidden by Default) -->
+  <div id="finalConfirmation" class="popup-container" style="display: none;">
+    <div class="popup">
+      <p>I just want to give you flowers and</p>
+      <p>keep admiring you na lang</p>
+      <p>and mapirmahan mo na yung drawing kooo</p>
+      <h2>For the last time Unica🥺</h2>
+      <h2>Will you be my Valentine?</h2>
+      <img src="https://media.giphy.com/media/ciqS8U27hugHAaUEST/giphy.gif?cid=790b7611etojemblqp3ap0lbmrbdnp7who4c1hjbx4c5qga8&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Sad GIF" class="popup-gif">
+      <div class="popup-buttons">
+        <button id="finalYesBtn">Yes</button>
+        <button id="finalNoBtn">No</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Thank You Page for "No" (Hidden by Default) -->
+  <div id="thankYouNoPage" class="container" style="display: none;">
+    <h1>Thank You! 💖</h1>
+    <p>Screenshot mo this and send mo na lang sakin so I can see the results :C </p>
+    <img src="https://media.giphy.com/media/H6cmWzp6LGFvqjidB7/giphy.gif?cid=790b7611dd1zbxxb60ltnhefefp053zpd41bt46jqzn1g0t7&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Thank You GIF" class="celebration-gif">
+  </div>
+
+  <!-- Thank You Page for "Yes" (Hidden by Default) -->
+  <div id="thankYouYesPage" class="container" style="display: none;">
+    <h1>Thank You! 💖</h1>
+    <p>Wahhhhhhhh Legit baaaa</p>
+    <img src="https://media.giphy.com/media/fUQ4rhUZJYiQsas6WD/giphy.gif?cid=790b7611yntxv0e35o1mfl9uxr2qp6esnspq9ewxduut23zl&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Celebration GIF" class="celebration-gif">
+    <p>Screenshot mo this and send mo na lang sakin so I can see the results :DD 🎉</p>
+  </div>
+
+  <div id="heartContainer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
